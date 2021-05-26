@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/")
-public class MorseCodeTranslator {
+public class MorseCodeTranslatorController {
 
     @GetMapping("/{morseCode}")
     public String translator(@PathVariable String morseCode){
